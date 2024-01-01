@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#756438"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomePageto">
+
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Tourism in Khasab "
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".1"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/restaurant"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tt1" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="160dp"
+        android:text="Restaurants"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tt1"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".6"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints,OnClick,UsingOnClickInXml,VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imag3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/tourism"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/but2" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="170dp"
+        android:text="Hotel"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/but1"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".6"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints,OnClick,UsingOnClickInXml,VisualLintButtonSize" />
+
+    <ImageView
+    android:id="@+id/imag2"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:src="@drawable/hotel"
+    android:layout_marginTop="70dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@id/but1" />
+
+    <Button
+        android:id="@+id/bu3"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="170dp"
+        android:onClick="Register"
+        android:text="Tourism areas"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/but2"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".6"
+        tools:ignore="DuplicateSpeakableTextCheck,HardcodedText,MissingConstraints,OnClick,UsingOnClickInXml,VisualLintButtonSize" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

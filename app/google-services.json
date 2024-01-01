@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384988048138",
+    "project_id": "tourism-in-khasab",
+    "storage_bucket": "tourism-in-khasab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384988048138:android:bf8ca1b4b7b6d49b1b28f3",
+        "android_client_info": {
+          "package_name": "com.example.tourisminkhasab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBXCLpcUsoleUqpStV27Rf6zYvVCjRqnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

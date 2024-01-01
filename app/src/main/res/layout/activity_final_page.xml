@@ -1,0 +1,100 @@
+<!-- activity_final.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBE5A2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Rate and Comment"
+        android:textAlignment="center"
+        android:textColor="#050303"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Social Media"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#4E3F12"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/te1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="musandam_season"
+
+        android:textColor="#0C0C0C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:drawablePadding="19dp"/>
+
+
+    <TextView
+        android:id="@+id/te2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="musandam_gallery"
+        android:textColor="#0C0C0C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:drawablePadding="20dp"/>
+    <TextView
+        android:id="@+id/te3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="musandam_island"
+        android:textColor="#0C0C0C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:drawablePadding="20dp"/>
+
+    <Button
+        android:id="@+id/butRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO Rate the App"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textColor="#E4E2D8"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/imgg"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/comments"/>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_hotel_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFCFCE"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Tourareas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tourism areas"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#676E2D"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ship Trips"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imagHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/edk" />
+
+    <TextView
+        android:id="@+id/tri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="You can ride a boat, wander around the sea, see dolphins, swim, have a good time, visit many small islands, climb mountains, and many other activities."
+        android:textColor="#554D4D"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+
+    <TextView
+        android:id="@+id/tret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khasab fortress"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/khasa" />
+
+    <TextView
+        android:id="@+id/fortt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The Musandam Governorate saw the start of a fort development project in 2007 according to the Ministry of Tourism. The restoration included employing moisture-exhausting systems, restoring the fort building's electrical supply and connections, and turning the big center tower into a permanent museum displaying folk arts, handicrafts, and customs. Residential buildings were also converted into a home gallery with traditional clothing and jewelry."
+        android:textColor="#554D4D"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+
+    <Button
+        android:id="@+id/hometo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="Home Page" />
+
+    <Button
+        android:id="@+id/rato"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="150dp"
+        android:text="Rate Page" />
+</LinearLayout>
+
+

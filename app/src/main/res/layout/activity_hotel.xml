@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_hotel_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8FB0BF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/Hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#3D4023"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/HotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atana  Musandam Hotel"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imagHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/atan" />
+
+    <TextView
+        android:id="@+id/HotelDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Atana Musandam Resort has 110 well-appointed rooms and suites with a private balcony or terrace and a lovely view of the Gulf of Oman, where you can spot local fishermen or just take in the vastness of the sea and the grandeur of the mountains. The resort is designed in a traditional Omani village style."
+        android:textColor="#554D4D"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+
+    <TextView
+        android:id="@+id/textViewHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atana Khasab Hotel"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/atkh" />
+
+    <TextView
+        android:id="@+id/textViewHotelDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text=" Atana Khasab, a four-star resort run by Oman Tourism Development Company (OMRAN), is built atop a rock face and provides expansive views of the breathtaking Musandam coastline. Situated in one of the Sultanate's most desirable locations, the Atana Khasab epitomizes the national spirit and offers cutting-edge amenities and services to meet all your demands."
+        android:textColor="#554D4D"
+        android:textSize="10dp"
+        tools:ignore="TextSizeCheck" />
+
+
+
+
+        <Button
+            android:id="@+id/butHotl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="150dp"
+            android:text="Home Page" />
+
+        <Button
+            android:id="@+id/butra"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="150dp"
+            android:text="Rate Page" />
+    </LinearLayout>
+
+

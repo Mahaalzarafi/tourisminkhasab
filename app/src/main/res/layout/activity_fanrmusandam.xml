@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_restaurant_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A378AA"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewRestaurantDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="serif"
+        android:text="Restaurants details"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#511A1A"/>
+
+
+    <TextView
+        android:id="@+id/RestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="monospace"
+        android:text="     Fanr Musandam"
+        android:textColor="#ffffff"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/ResDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/david_libre"
+        android:text="A restaurant famous for selling Turkish food. It is the only Turkish restaurant in Khasab overlooking Khasab Port. It is also famous for seafood instagram account :@fanrmusandam."
+        android:textSize="30dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/butBackToResList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Restaurants"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rate the app"
+        android:layout_marginTop="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/imRe2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/tea" />
+
+
+</LinearLayout>
